@@ -1,13 +1,16 @@
 pipeline{
-agent{
-label "slave-1"
-}
-stages{
-stage("stage-1"){
-steps{
-echo"hello all"
-echo"welcome"
-}
-}
-}
-}
+    agent{
+        label"built-in"
+    }
+        stages{
+           stage("stage-1"){
+           
+            
+                  steps{
+                    echo"hiii"
+
+                    }
+                    
+                }
+            }
+           }
